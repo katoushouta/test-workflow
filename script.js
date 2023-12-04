@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('startWork').addEventListener('click', () => {
-        console.log('出勤しました');
+        alert("出勤しました");
     });
 
     document.getElementById('endWork').addEventListener('click', () => {
